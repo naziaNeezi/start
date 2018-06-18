@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+    <body>
+        
+        <p>js animation code.... </p>  
+      
+        
+        <script type="text/javascript">
+            var x;
+            function clrTxt(){
+                document.getElementById("msg").innerHTML=" ";
+                setInterval(showTxt,3000);
+            }
+ 
+          function showTxt(){
+              
+              document.getElementById("msg").innerHTML="HI....";
+              setInterval(clrTxt,4500);
+          }
+           setInterval(showTxt,3000);
+           
+         
+        </script>
+        <p id="msg" style="color: red"></p>
+    </body>
+</html> 
